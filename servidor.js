@@ -14,4 +14,4 @@ io.addListener("connection", (socket) => {
 
 app.use(express.static("public"));
 
-servidorHttp.listen('https://vercel.com/orlando-pagnanis-projects/chat_neto');
+servidorHttp.address('https://vercel.com/orlando-pagnanis-projects/chat_neto');
