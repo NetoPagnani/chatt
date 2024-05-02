@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "servidor.js",
+  "engines": {
+    "node": "14.X"
+  },
   "scripts": {
+    "start": "node servidor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
